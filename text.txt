@@ -1,0 +1,18 @@
+function convertLength(input){
+  input = input.value
+  let feet = input * 3.2808399 // unit meter to feet 
+  feet = feet.toFixed(3)
+  let meter = input * 0.3048  // unit feet to meter
+  meter = meter.toFixed(3)
+
+  lengthEl.textContent = `${input} meters is ${feet} feet| ${input} feet is ${meter} meters`
+}
+function convertVolume(input){
+  input = input.value
+  let gallons = input * 0.26417205  // unit liters to gallon
+  gallons = gallons.toFixed(3)
+  let liters = input * 3.78541178  // unit gallons to liter
+  liters = liters.toFixed(3)
+  volumeEl.textContent = `${input} liters is ${gallons} gallons| ${input} gallon is ${liters} liters`
+}
+

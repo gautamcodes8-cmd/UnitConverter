@@ -1,0 +1,111 @@
+body {
+  text-align: center;
+  background: #1c1c1c;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5)
+}
+
+#input-section {
+  margin-top: 100px;
+  background-image: url("https://img4.goodfon.com/wallpaper/nbig/2/83/matematika-algebra-devochka.jpg");
+  width: 550px;
+  height: 285px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  object-fit: scale-down;
+  
+  
+  background-repeat: no-repeat;       /* prevent tiling */
+  background-position: center center; /* center horizontally & vertically */
+  background-size: cover;             /* scale to cover div */
+  
+}
+
+
+h1 {
+  font-family: "Inter", sans-serif;font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  color:pink;
+  font-style: extra-bold;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+#input {
+  width: 100px;
+  height: 52px;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 58px;
+  color: pink;
+
+  margin: 0px auto;
+  background: transparent;
+  text-align: center;
+  border: 2px solid pink;
+  padding: 10px;
+  border-radius: 5%;
+  outline: none;
+  margin-bottom: 20px;
+
+  text-shadow: 1px black;
+}
+/* Chrome, Safari, Edge, Opera */
+#input::-webkit-inner-spin-button,
+#input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#btn {
+  width: 117px;
+  height: 42px;
+  background: #ffffff;
+  box-shadow: 0px 1px 2px 0px #0000000d;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#display-section {
+  background: #1f2937;
+  width: 550px;
+  margin: 0px auto;
+}
+
+.display-item {
+  width: 480px;
+  height: 109px;
+  display: flex;
+  flex-direction: column;
+  justify-self: space-between;
+  background: #273549;
+  margin: 20px auto;
+   box-shadow: 0px 0px 3px gray;
+
+ 
+  
+
+  
+}
+
+h4{
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  color: #ccc1ff;
+  margin: 10px;
+}
+
+h6{
+  color: peachpuff;
+  font-family: "Inter", sans-serif;
+}
+
+.papa{
+ background: #273549;
+ width: 550px;
+ margin: 0px auto;
+}
